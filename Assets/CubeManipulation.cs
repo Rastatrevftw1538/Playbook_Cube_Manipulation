@@ -44,6 +44,15 @@ public class CubeManipulation : MonoBehaviour
         cubeTransform = this.transform;
     }
     /*
+     This method Resets all the cubes local values to 0 centering it infront of the camera
+     */
+    public void ResetTransform()
+    {
+        cubeTransform.localPosition = new Vector3(0, 0, 0);
+        cubeTransform.localRotation = new Quaternion(0, 0, 0, 0);
+        cubeTransform.localScale = new Vector3(1, 1, 1);
+    }
+    /*
      This method takes in a direction coord and then Moves the object based on the coordinate given by the transformScale value
      */
     public void MoveCube(string coord)
