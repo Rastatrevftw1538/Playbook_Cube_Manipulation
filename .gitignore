@@ -9,9 +9,9 @@
 .gradle/
 ExportedObj/
 .consulo/
-*.csproj
-*.unityproj
-*.sln
+#*.csproj
+#*.unityproj
+#*.sln
 *.suo
 *.tmp
 *.user
