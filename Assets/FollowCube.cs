@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class FollowCube : MonoBehaviour
 {
-    //Simple Script to keep gimbal on the object
     public GameObject Camera;
     public GameObject Cube;
 
+    //Script to keep Gimbal (or whatever this script is attached to) following the object and facing the camera.
     void Update()
     {
         if (!Input.GetMouseButton(0))
